@@ -29,5 +29,13 @@ cabal install exe:mdmore --installdir="$HOME/.local/bin" --overwrite-policy=alwa
 
 Ensure `$HOME/.local/bin` is on your `PATH`.
 
+## Using Make
+
+A Makefile is provided for convenience:
+
+- `make build` - Build the project
+- `make install` - Build and install to `~/.local/bin`
+- `make test` - Build, install, and run on README.md as a test
+
 
 
